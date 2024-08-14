@@ -1,0 +1,211 @@
+/* index login | pag 1*/
+
+    html{
+        overflow-y: hidden;
+    }
+
+    .background {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .box1 {
+        position: absolute;
+        top: 14%;
+        right: 34%;
+        width: 32vw;
+        height: 74vh;
+        backdrop-filter: blur(0.5vw);
+        font-family: "Montserrat", sans-serif;
+        color: #e3e3e3;
+        background-color: #e3e3e300;
+        border: 1px solid  #e3e3e338;
+        border-radius: 5vw 1vw 5vw 1vw;
+        overflow: hidden;
+    }
+
+    .box2 {
+    display: grid;
+    place-items: center;
+    }
+
+    .centercheck{
+        position: relative;
+        display: inline;
+    }
+
+    .centerlabele{
+        display: block;
+        padding-bottom: 0.5rem;
+        padding-top: 0.7rem;
+        right: 6vw;
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .box1 main button{
+        position: relative;
+        display: block;
+    }
+
+    .box1 main a{
+        position: relative;
+        display: block;
+    }
+
+    .centerlin {
+        right: 50%;
+        text-align: center;
+    }
+
+    .centerinput {
+        position: relative;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centercad {
+        text-align: center;
+    }
+
+    .centerlabel {
+        text-align: center;
+    }
+
+    .centerlin {
+        right: 50%;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    .centerinput {
+        justify-self: center;
+        align-self: center;
+        background-color: #e3e3e300;
+        backdrop-filter: blur(10px);
+        border:0;
+        border-radius: 20vw;
+        border-bottom: 1px solid #929292;
+        border-top: 1px solid #ffffff18;
+        padding-left: 0.8rem;
+        color:#e3e3e3;
+        height: 1.6rem;
+        width: 20rem;
+        font-size: 12px;
+        padding-bottom: 0.15vw;
+        padding-top: 0.2vw;
+    }
+
+    .centerinput::placeholder{
+        font-size: 0.6rem;
+        color: #e3e3e37a;
+        text-align: left;
+    }
+
+    .centerinput:focus-visible {
+        outline: none;
+        box-shadow: none;
+        transition: 0.1s;
+        border: 1px solid #929292;
+    }
+
+    #buttonent {
+        margin-top: 1.4rem;
+        width: 7.5rem;
+        height: 2.3rem;
+        background-color: #92929200;
+        backdrop-filter: blur(10px);
+        border-radius: 2vw 1vw 2vw 1vw;
+        border: 0;
+        border-top: 1px solid #92929283;
+        border-bottom: 1px solid #92929283;
+        color: #e3e3e3bb;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+    }
+
+    #buttonent:hover {
+        transition: 0.2s;
+        border-radius: 2vw 2vw 2vw 2vw;
+        background-color: #e3e3e30a;
+        color: #e3e3e3;
+    }
+
+    .centercheckbox {
+        display: grid;
+    }
+
+    .centercheckinput {
+        justify-self: center;
+        align-self: center;
+        margin-left: -133px;
+        transform: translate(0%,-10%);
+
+    }
+
+    .centerchecklabel {
+        position: relative;
+        text-align: center;
+        top: 24%;
+        padding-left: 42px;
+        font-size: 0.8rem;
+    }
+
+    .titlelogin { 
+        font-size: 1.7rem;
+        font-weight: 900;
+        right: 50%;
+        text-align: center;
+        cursor: default;
+        margin-bottom: 0.2vw;
+    }
+
+    .centercheckbox .centerchecklabel{
+        position: relative;
+        left: 0.3rem;
+        top: 0.3vw;
+        cursor: pointer;
+    }
+
+    footer p .centercad {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color:#e3e3e3;
+        border-bottom:1px solid #e3e3e31f;
+        cursor: pointer;
+        padding: 0.3rem 0.9rem;
+        border-radius: 20px;
+    }
+
+    footer p .centercad:hover{
+        border-bottom: 0;
+        color: #ffffffb2;
+        transition: .4s;
+        backdrop-filter: blur(10px);
+        background-color: #00000000;
+        border-radius: 20px;
+        border-top:1px solid #e3e3e31f;
+    }
+
+    footer p .centerredes {
+        font-size: 0.5rem;
+        letter-spacing: 0.2rem;
+        cursor: pointer;
+        text-decoration: none;
+        color:#e3e3e3;
+    }
+
+    footer p .centerredes:hover {
+        color:#ffffff;
+    }
+
+    footer #endbox {
+        margin-top: 0.1rem;
+        font-size: 0.5rem;
+        letter-spacing: 0.2rem;
+        cursor: default;
+    }
+
+/* @isma.medeiros & @ln.p.d */

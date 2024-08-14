@@ -1,0 +1,270 @@
+/* index login | pag 1*/
+
+    html{
+        overflow-y: hidden;
+    }
+    
+    .background {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .box1 {
+        position: absolute;
+        top: 14%;
+        right: 34%;
+        width: 32vw;
+        height: 74vh;
+        backdrop-filter: blur(0.5vw);
+        font-family: "Montserrat", sans-serif;
+        color: #e3e3e3;
+        background-color: #e3e3e300;
+        border: 1px solid  #e3e3e338;
+        border-radius: 5vw 1vw 5vw 1vw;
+        overflow: hidden;
+    }
+
+    .box2 {
+    display: grid;
+    place-items: center;
+    }
+
+    .centercheck{
+        position: relative;
+        display: inline;
+    }
+
+    .centerlabele{
+        display: block;
+        padding-bottom: 0.5rem;
+        padding-top: 0.7rem;
+        right: 6vw;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .box1 main button{
+        position: relative;
+        display: block;
+    }
+
+    .box1 main a{
+        position: relative;
+        display: block;
+    }
+
+    .centerlin {
+        right: 50%;
+        text-align: center;
+    }
+
+    .centerinput {
+        position: relative;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centercad {
+        text-align: center;
+    }
+
+    .centerlabel {
+        text-align: center;
+    }
+
+    .centerlin {
+        right: 50%;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    .centerinput {
+        justify-self: center;
+        align-self: center;
+        background-color: #e3e3e300;
+        backdrop-filter: blur(10px);
+        border:0;
+        border-radius: 20vw;
+        border-bottom: 1px solid #929292;
+        border-top: 1px solid #ffffff18;
+        padding-left: 0.8rem;
+        color:#e3e3e3;
+        height: 1.5rem;
+        width: 20rem;
+        font-size: 12px;
+        padding-bottom: 0.25vw;
+        padding-top: 0.3vw;
+        /* Eu odeio CSS :( */
+    }
+
+    .centerinput::placeholder{
+        font-size: 0.6rem;
+        color: #e3e3e37a;
+        text-align: left;
+    }
+
+    .centerinput:focus-visible {
+        outline: none;
+        box-shadow: none;
+        transition: 0.1s;
+        border: 1px solid #929292;
+    }
+
+    #buttonent {
+        margin-top: 1.5rem;
+        width: 7rem;
+        height: 2.4rem;
+        background-color: #92929200;
+        backdrop-filter: blur(10px);
+        border-radius: 2vw 1vw 2vw 1vw;
+        border:0;
+        border-top: 1px solid #92929283;
+        border-bottom: 1px solid #92929283;
+        color:#e3e3e3bb;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+
+    #buttonent:hover {
+        transition: 0.2s;
+        border-radius: 2vw 2vw 2vw 2vw;
+        background-color: #e3e3e30a;
+        color: #e3e3e3;
+    }
+
+    .centercheckbox {
+        display: grid;
+    }
+
+    .centercheckinput {
+        justify-self: center;
+        align-self: center;
+        margin-left: -133px;
+        transform: translate(0%,-10%);
+
+    }
+
+    .centerchecklabel {
+        position: relative;
+        text-align: center;
+        top: 24%;
+        padding-left: 42px;
+        font-size: 0.8rem;
+    }
+
+    .titlelogin { 
+        font-size: 1.7rem;
+        font-weight: 900;
+        padding: 0.4rem;
+        right: 50%;
+        text-align: center;
+        cursor: default;
+    }
+
+    .centercheckbox .centerchecklabel{
+        position: relative;
+        left: 0.3rem;
+        top: 0.3vw;
+        cursor: pointer;
+    }
+
+    /*checkbox*/
+    .box2 .stylecheckbox {
+        appearance: none;
+        position: relative;
+        backdrop-filter: blur(10px);
+        border: 1px solid #92929283;
+        width: 1.8rem;
+        height: 1.2rem;
+        border-radius: 20px;
+        top: 1.3rem;
+        left: -3.8rem;
+        cursor: pointer;
+    }
+
+    .box2 .stylecheckbox:hover{
+        backdrop-filter: blur(10px);
+        background-color: #e3e3e311;
+    }
+
+    .box2 .stylecheckbox::after{
+        content: '';
+        position: absolute;
+        background-color: #e3e3e3;
+        width: 0.8rem;
+        height: 0.8rem;
+        top: 0.14rem;
+        left: 0.13rem;
+        border-radius: 50%;
+        transition: all 100ms ease-out;
+    }
+    
+    .box2 .stylecheckbox:checked{
+        background-color: #e3e3e318;
+        border: 1px solid #92929249;
+    }
+
+    .box2 .stylecheckbox:checked::after{
+        background-color: #fff;
+        left: 0.75rem;
+    }
+
+    .box2 .stylecheckbox:checked:hover {
+        background-color: #e3e3e323;
+    }
+
+    .box2 p a {
+        text-decoration: none;
+        font-size: 0.7rem;
+        color:#e3e3e3;
+        cursor: pointer;
+        top: 0.5rem;
+    }
+
+    .box2 p a:hover{
+        color: #ffffff;
+    }
+
+    footer p .centercad {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color:#e3e3e3;
+        border-bottom:1px solid #e3e3e31f;
+        cursor: pointer;
+        padding: 0.3rem;
+        border-radius: 20px;
+    }
+
+    footer p .centercad:hover{
+        border-bottom: 0;
+        color: #ffffffb2;
+        transition: .4s;
+        backdrop-filter: blur(10px);
+        background-color: #00000000;
+        border-radius: 20px;
+        border-top:1px solid #e3e3e31f;
+    }
+
+    footer p .centerredes {
+        font-size: 0.5rem;
+        letter-spacing: 0.2rem;
+        cursor: pointer;
+        text-decoration: none;
+        color:#e3e3e3;
+
+    }
+
+    footer p .centerredes:hover {
+        color:#ffffff;
+    }
+
+    footer #endbox {
+        margin-top: 0.1rem;
+        font-size: 0.5rem;
+        letter-spacing: 0.2rem;
+        cursor: default;
+    }
+
+/* @isma.medeiros & @ln.p.d */
